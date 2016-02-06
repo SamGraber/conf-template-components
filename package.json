@@ -1,0 +1,42 @@
+{
+  "name": "conf-template-components",
+  "version": "1.0.0",
+  "description": "Complex components using template references to build flexible declarative markup.",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofnun15/conf-template-components.git"
+  },
+  "keywords": [
+    "angular2",
+    "templateRef",
+    "components",
+    "ng-conf"
+  ],
+  "author": "Josh Graber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonofnun15/conf-template-components/issues"
+  },
+  "homepage": "https://github.com/sonofnun15/conf-template-components#readme",
+  "dependencies": {
+    "jspm": "^0.16.27"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.3",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.3",
+      "text": "github:systemjs/plugin-text@^0.0.4"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  },
+  "devDependencies": {
+    "lite-server": "^2.0.1"
+  }
+}
