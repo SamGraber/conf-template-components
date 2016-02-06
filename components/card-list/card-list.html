@@ -1,0 +1,7 @@
+<div>
+	<h3>Card list</h3>
+	<div *ngFor="#card of source">
+		<conf-card [card]="card" [headTemplate]="head.template"
+				   [bodyTemplate]="body.template"></conf-card>
+	</div>
+</div>

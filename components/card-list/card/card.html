@@ -1,0 +1,8 @@
+<div class="container">
+	<div class="header" (click)="toggleContent()">
+		<conf-render [template]="head" [model]="card"></conf-render>
+	</div>
+	<div class="body" *ngIf="showBody">
+		<conf-render [template]="body" [model]="card"></conf-render>
+	</div>
+</div>

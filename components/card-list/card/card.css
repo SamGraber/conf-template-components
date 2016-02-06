@@ -1,0 +1,19 @@
+div.container {
+	margin: 1em;
+	box-shadow: 3px 3px 5px #888888;
+	background-color: #fff;
+}
+
+div.header {
+	background-color: #eee;
+	padding: 0.5em;
+}
+
+div.header:hover {
+	background-color: #eef;
+	cursor: pointer;
+}
+
+div.body {
+	padding: 0.5em;
+}
