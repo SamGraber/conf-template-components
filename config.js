@@ -16,6 +16,9 @@ System.config({
     "demo": {
       "main": "app",
       "defaultExtension": "ts"
+    },
+    "components": {
+      "defaultExtension": "ts"
     }
   },
 
