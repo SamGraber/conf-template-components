@@ -1,0 +1,3 @@
+# Ignore external dependencies
+/jspm_packages/
+/node_modules/
