@@ -1,1 +1,22 @@
-<h1>Welcome</h1>
+<h1>Template Containers</h1>
+<p>Using template references to create flexible components with powerful declarative markup</p>
+
+<conf-card-list [source]="sampleData">
+	<template confCardHeader #data>
+		<span class="important" *ngIf="data.dangerous">!</span>
+		<span>data.name</span>
+	</template>
+	<template confCardBody #bodyData>
+		<div>
+			<label>Value 1:</label>
+			<span>{{bodyData.value1}}</span>
+		</div>
+		<div>
+			<label>Value 2:</label>
+			<span>{{bodyData.value2}}</span>
+		</div>
+		<div>
+			<span class="important" *ngIf="bodyData.dangerous">DANGER!</span>
+		</div>
+	</template>
+</conf-card-list>
